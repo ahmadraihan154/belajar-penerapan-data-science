@@ -164,8 +164,8 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
 
 ### 7. Rekomendasi Action (Optional)
 - Adapun beberapa rekomendasi yang dapat diberikan agar dapat mengurangi potensi attrition pada karyawan adalah sebagai berikut:
-1. Mengatur Beban Kerja karyawan
-  - Karyawan yang sering lembur atau merasa terjebak di posisi yang sama cenderung lebih cepat keluar. Sebaiknya, pastikan karyawan tidak bekerja secara berlebihan. Selain itu, berikan kesempatan buat mereka yang di level entry untuk naik jabatan atau mencoba posisi baru agar mereka merasa berkembang.
+1. Mengatur Beban Kerja Karyawan
+Karyawan yang sering lembur berisiko mengalami kelelahan dan ketidakpuasan kerja, yang dapat mendorong mereka untuk keluar. Perusahaan sebaiknya memantau frekuensi lembur dan memastikan beban kerja tetap seimbang. Jika lembur tidak dapat dihindari, kompensasi yang layak dan jadwal kerja yang fleksibel dapat menjadi solusi untuk menjaga kesejahteraan karyawan.
 
 2. Meninjau Penghasilan dan Insentif
   - Karyawan dengan gaji rendah dan tanpa insentif saham lebih cenderung mencari peluang lain di perusahaan yang berbeda. Pastikan gaji mereka sesuai dengan kontribusinya, dan jangan lupa pertimbangkan untuk memberikan insentif kepada mereka. Ini bisa membuat mereka merasa lebih dihargai dan betah terhadap perusahaannya lebih lama.
