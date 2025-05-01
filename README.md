@@ -1,6 +1,6 @@
 # Nama : Ahmad Raihan
 # Modul : Belajar Penerapan Data Science
-# Submission Pertama: Menyelesaikan Permasalahan Human Resources 
+# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
 ## Struktur Direktori
 Adapun struktur direktori yang digunakan pada submission ini adalah:
@@ -20,15 +20,15 @@ Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri 
 Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. Hal ini berimbas tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%.
 Untuk mencegah hal ini semakin parah, manajer departemen HR ingin meminta bantuan Anda mengidentifikasi berbagai faktor yang mempengaruhi tingginya attrition rate tersebut. Selain itu, ia juga meminta Anda untuk membuat business dashboard untuk membantunya memonitori berbagai faktor tersebut.
 
-### 1.1 Problem Statements
+### 1.1 Permasalahan Bisnis
 Berdasarkan latar belakang yang telah dijelaskan, berikut adalah tiga permasalahan utama yang ingin dijawab dalam proyek ini:
 
 1. Apa faktor-faktor yang menyebabkan karyawan keluar dari perusahaan?  
 2. Bagaimana membangun model prediktif untuk mengidentifikasi karyawan yang berpotensi keluar?  
 3. Bagaimana cara menyajikan hasil analisis dan prediksi tersebut dalam bentuk dashboard yang informatif?
 
-### 1.2 Goals
-Proyek ini memiliki goals sebagai berikut:
+### 1.2 Cakupan Proyek
+Proyek ini memiliki cakupan proyek sebagai berikut:
 1. Mengidentifikasi faktor-faktor utama yang memengaruhi keputusan karyawan untuk keluar dari perusahaan.
 2. Membangun model prediktif berbasis machine learning untuk memprediksi karyawan yang berpotensi keluar.
 3. Menyediakan business dashboard yang dapat membantu tim HR dalam memantau kondisi tenaga kerja dan mengambil tindakan preventif secara lebih terukur.
@@ -44,9 +44,9 @@ Proyek ini memiliki goals sebagai berikut:
 
   4. **Prediksi**: Menggunakan model terbaik yang telah terpilih untuk melakukan prediksi terhadap kemungkinan seorang karyawan akan keluar, dengan tujuan mendukung pengambilan keputusan yang proaktif oleh tim HR.
 
-  5. **Pembuatan Dashboard Interaktif**: Membangun dashboard yang informatif dan mudah dipahami sebagai media visualisasi hasil analisis dan prediksi, sehingga dapat digunakan sebagai alat bantu strategis oleh manajemen dan tim HRD.
+  5. **Pembuatan Dashboard**: Membangun dashboard yang informatif dan mudah dipahami sebagai media visualisasi hasil analisis dan prediksi, sehingga dapat digunakan sebagai alat bantu strategis oleh manajemen dan tim HRD.
 
-## 2. Data Preparation
+## 2. Persiapan
 ### 2.1 **Dataset**
 Dataset yang digunakan dalam proyek ini adalah **[Dataset Karyawan Jaya Jaya Maju](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)**, yang disediakan sesuai dengan instruksi pada submission proyek ini.
 
@@ -88,9 +88,8 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
    - **Username**: `root@mail.com`
    - **Password**: `root123`
 
-## 4. Hasil 
-###  4.1 Faktor Penyebab Attrition 
-- Berdasarkan hasil **analisis EDA** dan modeling menggunakan **Random Forest**, berikut adalah 10 fitur yang paling berpengaruh terhadap keputusan karyawan untuk keluar dari perusahaan:
+## 4. Business Dashboard
+- Berdasarkan hasil **analisis dari Dasboard** dan modeling menggunakan **Random Forest**, berikut adalah 10 fitur yang paling berpengaruh terhadap keputusan karyawan untuk keluar dari perusahaan:
 
 1. **OverTime (Yes)**
    - **OverTime** menunjukkan pengaruh paling besar terhadap **attrition** dengan skor **importance** **0.207373**.
@@ -141,8 +140,11 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
     - **MaritalStatus (Single)** memiliki skor **importance** **0.042957**.
     - Karyawan yang belum menikah lebih cenderung berpindah pekerjaan karena mereka tidak memiliki komitmen keluarga yang mengikat mereka untuk tetap di satu tempat.
     - **Analisis EDA** mendukung temuan ini, di mana karyawan yang berstatus single memiliki tingkat **attrition** yang lebih tinggi.
+![image](https://github.com/user-attachments/assets/04f9d7ab-7202-4ec7-8b7b-2a9b9b0e02ce)
+![image](https://github.com/user-attachments/assets/4be7827a-bbf1-45ec-b605-2f7709d26b0b)
+![image](https://github.com/user-attachments/assets/fa5c307f-fc14-4f70-8b57-e765af727257)
 
-### 4.2 Model Prediktif
+## 5. Hasil Model Prediktif
 - Berdasarkan hasil evaluasi menggunakan metrik accuracy, precision, recall, f1-score, serta analisis melalui confusion matrix, dapat disimpulkan bahwa **model Random Forest memiliki performa terbaik di antara model Decision Tree dan Gradient Boosting untuk dataset yang tidak seimbang**.
 
 - Hal ini ditunjukkan oleh nilai evaluasi berikut:
@@ -157,7 +159,10 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
 | Random Forest       | 0.8491   | 0.6400    | 0.410   | 0.5000   |
 | Gradient Boosting   | 0.8160   | 0.5000    | 0.359   | 0.4179   |
 
-### 4.3 Rekomendasi Action
+### 6. Conclusion
+- Dengan memahami faktor-faktor utama yang mempengaruhi **attrition** karyawan dan menggunakan **model prediktif** yang efektif, perusahaan dapat **mengambil langkah-langkah proaktif** untuk mempertahankan karyawan dan mengurangi tingkat attrition.
+
+### 7. Rekomendasi Action (Optional)
 - Adapun beberapa rekomendasi yang dapat diberikan agar dapat mengurangi potensi attrition pada karyawan adalah sebagai berikut:
 1. Mengatur Beban Kerja karyawan
   - Karyawan yang sering lembur atau merasa terjebak di posisi yang sama cenderung lebih cepat keluar. Sebaiknya, pastikan karyawan tidak bekerja secara berlebihan. Selain itu, berikan kesempatan buat mereka yang di level entry untuk naik jabatan atau mencoba posisi baru agar mereka merasa berkembang.
@@ -170,6 +175,3 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
 
 4. Berikan Manfaat yang Sesuai dengan Demografi Karyawan
   - Karyawan muda dan single cenderung lebih mudah berpindah kerja karena belum banyak tanggungan dan terbuka terhadap peluang pekerjaan lain yang menurut mereka lebih menarik dari pada perusahaan ini berikan. Untuk menekan potensi attrition dari kelompok ini, perusahaan bisa menawarkan fleksibilitas kerja seperti opsi remote, kesempatan pengembangan diri, serta reward yang relevan seperti voucher, tiket hiburan, dsb. Pendekatan ini lebih sesuai dengan gaya hidup mereka dan dapat meningkatkan retensi.
-
-### 5. Kesimpulan
-- Dengan memahami faktor-faktor utama yang mempengaruhi **attrition** karyawan dan menggunakan **model prediktif** yang efektif, perusahaan dapat **mengambil langkah-langkah proaktif** untuk mempertahankan karyawan dan mengurangi tingkat attrition. Rekomendasi ini, jika diterapkan dengan tepat, dapat membantu meningkatkan **kepuasan karyawan** dan mengurangi biaya perekrutan ulang.
