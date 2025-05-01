@@ -171,8 +171,5 @@ Untuk mengakses **dashboard** secara lokal, Anda dapat menjalankan **Metabase** 
 4. Berikan Manfaat yang Sesuai dengan Demografi Karyawan
   - Karyawan muda dan single cenderung lebih mudah berpindah kerja karena belum banyak tanggungan dan terbuka terhadap peluang pekerjaan lain yang menurut mereka lebih menarik dari pada perusahaan ini berikan. Untuk menekan potensi attrition dari kelompok ini, perusahaan bisa menawarkan fleksibilitas kerja seperti opsi remote, kesempatan pengembangan diri, serta reward yang relevan seperti voucher, tiket hiburan, dsb. Pendekatan ini lebih sesuai dengan gaya hidup mereka dan dapat meningkatkan retensi.
 
-5. Implementasi Model Prediktif untuk Pemantauan:  
-  - Model prediktif dapat diintegrasikan ke dalam dashboard HR untuk memantau risiko attrition secara real-time dan memberi peringatan dini untuk tindakan proaktif.
-
 ### 5. Kesimpulan
 - Dengan memahami faktor-faktor utama yang mempengaruhi **attrition** karyawan dan menggunakan **model prediktif** yang efektif, perusahaan dapat **mengambil langkah-langkah proaktif** untuk mempertahankan karyawan dan mengurangi tingkat attrition. Rekomendasi ini, jika diterapkan dengan tepat, dapat membantu meningkatkan **kepuasan karyawan** dan mengurangi biaya perekrutan ulang.
